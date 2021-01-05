@@ -1,0 +1,6 @@
+[
+{
+  "directory": "E:\\workspace\\songting\\pastel\\cpp",
+  "arguments": ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe", "-c", "/EHsc", "-nologo", "-IC:\\Users\\huangsongting\\AppData\\Local\\.xmake\\packages\\l\\libsdl\\2.0.12\\7001040a8533492597b595810d0adc4e\\include", "-IC:\\Users\\huangsongting\\AppData\\Local\\.xmake\\packages\\l\\libsdl\\2.0.12\\7001040a8533492597b595810d0adc4e\\include\\SDL2", "-Fobuild\\.objs\\console\\windows\\x64\\release\\src\\main.cc.obj", "src\\main.cc"],
+  "file": "src\\main.cc"
+}]

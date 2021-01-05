@@ -1,0 +1,34 @@
+{
+    libsdl = {
+        links = {
+            "SDL2main",
+            "SDL2"
+        },
+        libfiles = {
+            [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib\SDL2main.lib]],
+            [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib\SDL2.lib]],
+            [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib\SDL2.dll]]
+        },
+        syslinks = {
+            "gdi32",
+            "user32",
+            "winmm",
+            "shell32"
+        },
+        __enabled = true,
+        sysincludedirs = {
+            [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\include]],
+            [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\include\SDL2]]
+        },
+        linkdirs = [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib]],
+        version = "2.0.12",
+        static = true,
+        __requirestr = "libsdl",
+        envs = {
+            PATH = {
+                [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\bin]]
+            }
+        }
+    },
+    __version = "2.3.9"
+}

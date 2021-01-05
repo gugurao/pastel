@@ -1,0 +1,15 @@
+{
+    __version = "2.3.9",
+    cmdlines = {
+        [[xmake l c:\Users\huangsongting\.vscode\extensions\tboox.xmake-vscode-1.4.4\assets\config.lua]],
+        "xmake run",
+        "xmake build",
+        "xmake run",
+        "xmake build",
+        "xmake build",
+        "xmake ",
+        "xmake ",
+        "xmake run",
+        [[xmake l c:\Users\huangsongting\.vscode\extensions\tboox.xmake-vscode-1.4.4\assets\config.lua]]
+    }
+}

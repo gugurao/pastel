@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "xutility": "cpp",
+        "cmath": "cpp",
+        "cfloat": "cpp"
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Enabled"
+}
