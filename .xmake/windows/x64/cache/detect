@@ -1,17 +1,7 @@
 {
-    find_program = {
-        gzip = false,
-        git = "git",
-        unzip = false,
-        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\cl.exe]],
-        gdc = false,
-        ["7z"] = "7z",
-        ping = "ping",
-        ldc2 = false,
-        dmd = false
-    },
-    find_programver = {
-        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe"] = false
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_cl_external_includedir"] = true,
+        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_cl_sourceDependencies"] = true
     },
     ["find_package_windows_x64_2.0.12_fetch_package_xmake_release_external"] = {
         ["xmake::libsdl"] = {
@@ -19,19 +9,19 @@
                 "SDL2main",
                 "SDL2"
             },
-            libfiles = {
-                [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib\SDL2main.lib]],
-                [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib\SDL2.lib]],
-                [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib\SDL2.dll]]
+            version = "2.0.12",
+            linkdirs = {
+                [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib]]
             },
             sysincludedirs = {
                 [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\include]],
                 [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\include\SDL2]]
             },
-            linkdirs = {
-                [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib]]
+            libfiles = {
+                [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib\SDL2main.lib]],
+                [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib\SDL2.lib]],
+                [[C:\Users\huangsongting\AppData\Local\.xmake\packages\l\libsdl\2.0.12\7001040a8533492597b595810d0adc4e\lib\SDL2.dll]]
             },
-            version = "2.0.12",
             static = true,
             syslinks = {
                 "gdi32",
@@ -41,10 +31,22 @@
             }
         }
     },
-    __version = "2.3.9",
-    ["lib.detect.has_flags"] = {
-        ["windows_x64_C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_cl_external_includedir"] = true
+    find_program = {
+        ccache = false,
+        ping = "ping",
+        unzip = false,
+        git = "git",
+        gdc = false,
+        ldc2 = false,
+        dmd = false,
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\cl.exe]],
+        gzip = false,
+        ["7z"] = "7z"
     },
+    find_programver = {
+        ["C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX64\\x64\\cl.exe"] = false
+    },
+    __version = "2.3.9",
     ["net.ping"] = {
         ["github.com"] = 73,
         ["gitlab.com"] = 143,
